@@ -54,6 +54,6 @@
     <script src="{{ asset('admin/js/dataTables.bootstrap4.js') }}"></script>
 
     @livewireScripts
-    @stack('deleteModalScript')
+    @stack('Script')
 </body>
 </html>

@@ -62,7 +62,7 @@
                                 </tr>
                             @empty
                                 <tr>
-                                    <td colspan="4"></td>
+                                    <td colspan="4">No Categories Available!!</td>
                                 </tr>
                             @endforelse
                         </tbody>
@@ -76,7 +76,7 @@
     </div>
 </div>
 
-@push('deleteModalScript')
+@push('Script')
     
     <script>
         window.addEventListener('close-modal', event => {
